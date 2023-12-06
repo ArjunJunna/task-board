@@ -1,0 +1,96 @@
+.page-header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-search {
+  width: 30%;
+  display: flex;
+  height: 1.5rem;
+}
+
+.nav-search input {
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  outline: none;
+  width: 95%;
+  background-color: var(--white-color);
+  font-size: medium;
+  color: var(--black-color);
+  padding: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+}
+.nav-search i {
+  font-size: 1.5rem;
+}
+
+.options {
+  display: flex;
+  gap: 1.5rem;
+}
+.options .item {
+  cursor: pointer;
+}
+
+.filter-item {
+  position: relative;
+  cursor: pointer;
+}
+.filter-nav {
+  position: absolute;
+  height: 5rem;
+  width: 7rem;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 4px;
+  background-color: var(--light-grey-color);
+}
+
+.filter-nav input[type="radio"] {
+  margin-right: 4px;
+}
+
+.nav-link {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: var(--foreground-color);
+}
+
+.nav-link li a:hover {
+  text-decoration: none;
+  color: var(--grey-color);
+}
+.options p:hover {
+  color: var(--grey-color);
+}
+.icon {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 470px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-link {
+    margin-top: 1rem;
+  }
+  .nav-search input {
+    width: 12rem;
+  }
+}

@@ -1,0 +1,47 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #f5f5f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary-color: rgba(250, 100, 63, 0.877);
+  --primary-bg-color: rgb(209, 80, 41);
+  --border-color: rgb(213, 213, 213);
+  --btn-color: rgb(255, 240, 236);
+  --light-grey-color: rgb(211, 211, 211);
+  --white-color: rgb(255, 255, 255);
+  --black-color: rgb(0, 0, 0);
+  --grey-color: rgb(128, 128, 128);
+  --link-color: rgb(18, 166, 224);
+  --yellow-color: rgb(238, 255, 0);
+  --card-bg-color: rgb(240, 240, 240);
+  --card-hover-color:rgb
+  --primary-light-color: rgba(233, 77, 38, 0.781);
+  --red-color:rgb(255, 0, 0);
+  --light-red-color:rgb(235, 136, 136);
+  --orange-color:rgb(236, 157, 9);
+  --light-green-color:rgb(175, 219, 109);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dark--mode {
+  --background-color: rgb(59, 58, 58);
+  --foreground-color: rgb(143, 143, 143);
+}
