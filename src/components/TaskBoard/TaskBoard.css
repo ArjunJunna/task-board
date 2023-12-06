@@ -1,12 +1,12 @@
 .task-board {
   display: flex;
-  justify-content: center;
   margin-top: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .column {
-  width: 300px;
+  width: 270px;
   padding: 10px;
   border-radius: 5px;
   margin: 1rem;

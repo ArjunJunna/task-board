@@ -1,7 +1,7 @@
 .task {
   background-color: var(--white-color);
   height: 12rem;
-  width: 18rem;
+  width: 16rem;
   position: relative;
   color: var(--black-color);
   display: flex;
