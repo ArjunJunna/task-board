@@ -22,3 +22,20 @@ This project utilizes React, React Router DOM, Axios and TypeScript to create a 
 5. **Data Persistence:** Introduce backend (like a database or server) for persistent storage of tasks and user data.
 6. **Enhanced Data Visualization:** Explore advanced visualization techniques or additional chart types for better insights into task metrics.
 
+## Running the React App with Vite
+
+### Prerequisites
+
+- **Node.js:** Ensure Node.js is installed. Download it from [nodejs.org](https://nodejs.org/).
+- **Git:** Install Git if not already available. Download from [git-scm.com](https://git-scm.com/).
+
+### Clone the Repository
+
+1. Open a terminal or command prompt.
+2. Clone the repository using Git:
+   ```bash
+   git clone <repository-url>
+3. cd your-project-folder  
+4. npm install
+5. npm run dev
+
