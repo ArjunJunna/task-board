@@ -2,6 +2,17 @@
 
 This project utilizes React, React Router DOM, Axios and TypeScript to create a dynamic web application focused on task management.
 
+Click here for live preview - [Task-Board](https://task-board-onq6.onrender.com/)
+
+ **Features**
+ 
+ 1. Task Board layout, Drag-and-Drop functionality and Task cards.
+ 2. Task metrics visualization.
+ 3. Search functionality, which will search by task name from any group (Ready/In progress/Testing/Done).
+ 4. Filters by assignee, filter by severity of the task.
+ 5. Unique colors / badges to each task based on severity (High/Medium/Low).
+ 6. Light and dark mode functionality.
+
 ### Design Decisions
 
 1. **Technology Stack:** Leveraged React's ecosystem for its component-based architecture, React Router DOM for navigation, Axios to fetch data and TypeScript for type safety.
