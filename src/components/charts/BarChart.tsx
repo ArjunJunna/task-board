@@ -105,14 +105,16 @@ const BarChart: FC = () => {
   };
 
   return (
-    <>
+    <div
+      
+    >
       <p>Total Tasks: {taskMetricsData.totalTasks}</p>
       <p>People Involved: {taskMetricsData.peopleInvolved}</p>
       <p>Total Effort Spent: {taskMetricsData.totalEffortSpent} hours</p>
       <div style={{ width: "40rem", height: "50rem" }}>
         <Bar options={options} data={data} />
       </div>
-    </>
+    </div>
   );
 };
 

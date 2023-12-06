@@ -1,6 +1,6 @@
 .task-board {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 20px;
   flex-wrap: wrap;
 }
@@ -30,7 +30,7 @@
   background-color: var(--card-bg-color);
 }
 
-.search-container{
+.search-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

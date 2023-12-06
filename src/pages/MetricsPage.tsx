@@ -1,12 +1,11 @@
-import BarChart from '../components/charts/BarChart'
-
+import BarChart from "../components/charts/BarChart";
 
 const MetricsPage = () => {
   return (
-    <>
-    <BarChart/>
-    </>
-  )
-}
+    <div className="center">
+      <BarChart />
+    </div>
+  );
+};
 
-export default MetricsPage
+export default MetricsPage;
